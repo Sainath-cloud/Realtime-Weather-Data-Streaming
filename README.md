@@ -2,8 +2,6 @@
 
 This project implements an end-to-end real-time streaming data engineering pipeline designed to collect, process, and visualize real-time weather data. It's built to provide continuous weather updates and enable real-time alerting for extreme weather conditions.
 
------
-
 ## 🏗️ Project Architecture
 
 The system is designed to ingest data from an **Event Hub**, process it through **Azure Functions** and **Databricks**, store and transform it within **Microsoft Fabric**, and finally visualize it in **Power BI** for real-time reporting. **Azure Data Activator** is used for alerting on specific weather conditions.
@@ -14,8 +12,6 @@ The system is designed to ingest data from an **Event Hub**, process it through 
   * **Microsoft Fabric**: The central analytics platform for data processing (e.g., Lakehouse, Data Pipelines) and storage (KQL Database, Eventhouse).
   * **Azure Data Activator**: Configured within Fabric to monitor processed data for specific weather thresholds and trigger alerts (e.g., email notifications for extreme weather).
   * **Power BI Desktop Report**: Connects to the processed data in Fabric to create interactive, real-time dashboards for weather monitoring.
-
------
 
 ## 🛠️ Components & Technologies
 
@@ -33,7 +29,6 @@ This project leverages various Microsoft Azure and Fabric services:
   * **Power BI Desktop**: For creating interactive data visualizations and reports.
   * **Git / GitHub**: For version control and collaborative development of code artifacts.
 
------
 
 ## 📁 Local Project Structure
 
@@ -81,7 +76,6 @@ Setting up this project involves deploying resources across Azure and configurin
       * Open `powerbi/weather_report.pbix` with Power BI Desktop.
       * Ensure the data source connections point to your Fabric Semantic model. Refresh the report to pull live data.
 
------
 
 ## 📊 Usage
 
