@@ -50,8 +50,6 @@ my-data-project/
 └── .gitignore                      # Files/folders to ignore in Git
 ```
 
------
-
 ## 🚀 Setup & Deployment
 
 Setting up this project involves deploying resources across Azure and configuring items within Microsoft Fabric. This section provides a high-level overview. For detailed deployment steps, please refer to the specific documentation or video tutorial where this project originated.
