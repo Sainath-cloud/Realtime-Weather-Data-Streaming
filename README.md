@@ -1,3 +1,5 @@
+
+![Fabric Data Flow Diagram](Weather_Data_Project/Documents/weather_streaming_architecture.png)
 # ☁️ Real-Time Weather Report Project
 
 This project implements an end-to-end real-time streaming data engineering pipeline designed to collect, process, and visualize real-time weather data. It's built to provide continuous weather updates and enable real-time alerting for extreme weather conditions.
