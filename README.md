@@ -1,5 +1,5 @@
 
-![Fabric Data Flow Diagram](Weather_Data_Project/Documents/weather_streaming_architecture.png)
+![Project_Diagram](Weather_Data_Project/Documents/weather_streaming_architecture.png)
 # ☁️ Real-Time Weather Report Project
 
 This project implements an end-to-end real-time streaming data engineering pipeline designed to collect, process, and visualize real-time weather data. It's built to provide continuous weather updates and enable real-time alerting for extreme weather conditions.
@@ -61,6 +61,8 @@ Setting up this project involves deploying resources across Azure and configurin
       * Deploy an **Azure Event Hub** instance.
       * Set up an **Azure Function App** and deploy the `function_app` code. Configure it to send data to the Event Hub.
       * Configure **Azure Databricks** workspace and import the `databricks/weather_notebook.ipynb` to run your data processing logic, potentially pulling data from or pushing data to Event Hub/Fabric.
+
+![Fabric Data Flow Diagram](Weather_Data_Project/Documents/Microsoft_Fabric_Workspace_Structure.png)
 
 2.  **Microsoft Fabric Configuration**:
 
